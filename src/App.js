@@ -17,7 +17,7 @@ const App = () => {
   const [contact, setContact] = useState([]);
   function list(newObj) {
     let newContact = [...contact, newObj];
-    newContact.sort((a, b) => a.name.localeCompare(b.name)); // Сортировка по имени в алфавитном порядке
+    newContact.sort((a, b) => a.name.localeCompare(b.name)); 
     setContact(newContact);
   }
 
